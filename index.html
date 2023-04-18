@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="result">
+    <h3 class="white-6">Your Result</h3>
+    <div class="result--circle">
+      <p class="result--score">
+        76
+      </p>
+      <p class="result--total white-5">
+        of 100
+      </p>
+    </div>
+    <p class="result--status">
+      Great
+    </p>
+    <p class="description white-7">
+      You scored higher than 65% of the people who have taken these tests.
+    </p>
+  </section>
+
+  <section class="summary">
+    <p class="summary--title">Summary</p>
+    <div class="summary--container">
+      <p class="summary--category summary--reaction">
+        Reaction <span>80 / 100</span>
+        </p>
+        <p class="summary--category summary--memory">
+          Memory <span>92 / 100</span>
+        </p>
+        <p class="summary--category summary--verbal">
+          Verbal <span>61 / 100</span>
+        </p>
+        <p class="summary--category summary--visual">Visual <span>72 / 100</span></p> 
+    </div>
+
+    <button class="summary--button">
+      Continue
+    </button>
+  </section>
+</main>
+<script src="./app.js"></script>
+</body>
+</html>
